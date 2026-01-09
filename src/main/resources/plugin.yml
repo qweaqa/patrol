@@ -1,0 +1,21 @@
+name: patrol
+version: 1.0
+author: qweaq
+main: com.qweaq.patrol.Patrol
+api-version: 1.21
+commands:
+  patrol:
+    description: 随机巡逻
+    usage: /patrol [reload]
+    permission: patrol.use
+  pmsg:
+    description: 发送匿名查岗消息
+    usage: /pmsg <player>
+    permission: patrol.use
+permissions:
+  patrol.use:
+    description: 允许使用基础指令
+    default: op
+  patrol.admin:
+    description: 允许重载patrol插件
+    default: op

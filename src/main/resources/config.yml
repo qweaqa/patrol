@@ -1,0 +1,16 @@
+# AdvancedPatrol 配置文件
+
+settings:
+  # [新增] 巡逻历史记录长度
+  # 假如设置为 20，那么你最近巡逻过的 20 个人都不会再次被随机选中
+  history-size: 10
+  
+  # [新增] 历史记录过期时间 (分钟)
+  # 超过这个时间没巡逻，名单自动清空
+  expire-minutes: 60
+
+# pmsg 指令设置
+pmsg:
+  message: "&8[&c&l人工查岗&8] &e&l您当前处于挂机状态吗？如果不是，请移动一下角色！"
+  sound-count: 10
+  sound-interval: 10
